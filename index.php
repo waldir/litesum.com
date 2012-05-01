@@ -30,7 +30,7 @@
 <body onload="sf();getArticle();">
 
 <div class="wrapper">
-	<div class="center"><a href="/"><img src="/img/header.gif" alt="LiteSum - Instant Wikipedia Summaries"/></a></div>
+	<div class="center"><a href="/"><img src="/header.gif" alt="LiteSum - Instant Wikipedia Summaries"/></a></div>
 
 	<form action="/" method="get" name="f">
 		<input type="text" value="<?php echo getTopic($_GET['q']) ?>" name="q" id="q" class="text" autocomplete="off"/>
