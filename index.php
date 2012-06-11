@@ -18,19 +18,20 @@
 
 <body onload="sf();getArticle();">
 
-<div class="wrapper">
-  <div class="center"><a href="/"><img src="/header.gif" alt="LiteSum - Instant Wikipedia Summaries"></a></div>
+  <div class="wrapper">
+    <div class="center"><a href="/"><img src="/header.gif" alt="LiteSum - Instant Wikipedia Summaries"></a></div>
 
-  <form action="/" method="get" name="f">
-    <input type="text" value="<?php echo getTopic($_GET['q']) ?>" name="q" id="q" class="text" autocomplete="off">
-  </form>
+    <form action="/" method="get" name="f">
+      <input type="text" value="<?php echo getTopic($_GET['q']) ?>" name="q" id="q" class="text" autocomplete="off">
+    </form>
 
-  <div id="summary">
-    <p class="big"><b>Type a topic above and wait for results.</b></p>
-    <p class="center">A brief summary of the requested topic will appear instantly.</p>
+    <div id="summary">
+      <p class="big"><b>Type a topic above and wait for results.</b></p>
+      <p class="center">A brief summary of the requested topic will appear instantly.</p>
+    </div>
+
+    <p class="small" style="margin-top:55px;"><span style="color:#e6a728;">Lite</span><span style="color:#356aa0;">sum</span> by <a href="http://www.jakejarvis.com/">Jake Jarvis</a>.</p></div>
   </div>
-
-  <p class="small" style="margin-top:55px;"><span style="color:#e6a728;">Lite</span><span style="color:#356aa0;">sum</span> by <a href="http://www.jakejarvis.com/">Jake Jarvis</a>.</p></div>
 
   <script>
     var _gauges = _gauges || [];
